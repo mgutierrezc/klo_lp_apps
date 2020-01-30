@@ -17,6 +17,7 @@ SESSION_CONFIGS = [
         'display_name': "Money in Politics",
         'num_demo_participants': 9,
         'app_sequence': ['MoneyPolitics'],
+        'treatment': "Tetris", #Which game will be played (Tetris or Diamonds)
     },
 ]
 
