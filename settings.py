@@ -13,8 +13,7 @@ SESSION_CONFIG_DEFAULTS = {
 
 SESSION_CONFIGS = [
     {
-        'name': 'money_politics',
-        'display_name': "Money in Politics",
+        'name': 'MoneyPolitics',
         'num_demo_participants': 9,
         'app_sequence': ['MoneyPolitics'],
         'treatment': "Tetris", #Which game will be played (Tetris or Diamonds)
