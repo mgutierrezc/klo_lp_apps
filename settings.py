@@ -16,7 +16,14 @@ SESSION_CONFIGS = [
         'name': 'MoneyPolitics',
         'num_demo_participants': 9,
         'app_sequence': ['MoneyPolitics'],
-        'treatment': "Tetris", #Which game will be played (Tetris or Diamonds)
+        # Display player ID
+        'show_id': True,
+        # Display player income
+        'show_income': True,
+        # Which game will be played (Tetris or Diamonds)
+        'treatment': "Tetris",
+        # Which tax system is going to be used (tax_rate or progressivity)
+        'tax_system': "tax_rate"
     },
 ]
 
