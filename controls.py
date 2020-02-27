@@ -34,3 +34,7 @@ possible_message_receivers_9.remove(possible_message_receivers[8])
 message_cost = 1
 number_of_messages = 1
 possible_tax_systems = [[0, 'Progressivity System'], [1, "Tax Rate System"]]
+
+# Private Sector Parameters
+alpha = 5
+beta = 1/16
