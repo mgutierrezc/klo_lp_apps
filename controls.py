@@ -33,7 +33,14 @@ possible_message_receivers_9.remove(possible_message_receivers[8])
 
 message_cost = 1
 number_of_messages = 1
-possible_tax_systems = [[0, 'Progressivity System'], [1, "Tax Rate System"]]
+progressivity_levels = [[1, 'Progessivity 1'], [2, 'Progessivity 2'], [3, 'Progessivity 3'],
+                        [4, 'Progessivity 4'], [5, 'Progessivity 5']]
+
+progressivity_levels_tax_rates = {'1': [0.4, 0.4, 0.4, 0.4, 0.4, 0.4],
+                                  '2': [0.3, 0.35, 0.375, 0.4, 0.45, 0.55],
+                                  '3': [0.2, 0.3, 0.35, 0.4, 0.55, 0.65],
+                                  '4': [0.4, 0.4, 0.4, 0.4, 0.4, 0.4],
+                                  '5': [0.4, 0.4, 0.4, 0.4, 0.4, 0.4]}
 
 # Private Sector Parameters
 alpha = 5
