@@ -23,7 +23,7 @@ SESSION_CONFIGS = [
         # Which game will be played (Tetris or Diamonds)
         'treatment': "Tetris",
         # Which tax system is going to be used (tax_rate or progressivity)
-        'tax_system': "tax_rate"
+        'tax_system': "tax_rate",
     },
 ]
 
